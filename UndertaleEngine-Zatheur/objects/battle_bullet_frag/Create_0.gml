@@ -1,0 +1,3 @@
+depth=DEPTH_BATTLE.BULLET_OUTSIDE_LOW;
+speed=5;
+//1.7
