@@ -1,0 +1,3 @@
+Battle_CallSoulEventHurt()
+
+

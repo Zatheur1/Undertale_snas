@@ -1,0 +1,14 @@
+Battle_SetSoul(battle_soul_blue);
+battle_soul.dir=DIR.LEFT;
+
+Battle_SetTurnInfo(BATTLE_TURN.TIME,1000);
+Battle_SetTurnInfo(BATTLE_TURN.BOARD_UP,BATTLE_BOARD.UP+60);
+Battle_SetTurnInfo(BATTLE_TURN.BOARD_LEFT,150);
+Battle_SetTurnInfo(BATTLE_TURN.BOARD_RIGHT,150);
+Battle_SetTurnInfo(BATTLE_TURN.BOARD_X,BATTLE_BOARD.X);
+Battle_SetTurnInfo(BATTLE_TURN.SOUL_X,0);
+Battle_SetTurnInfo(BATTLE_TURN.SOUL_Y,0);
+
+var inst=instance_create_depth(battle_enemy_sans.x+100,battle_enemy_sans.y-120,0,battle_dialog_enemy);
+inst.text="{font FONT.SANS}{voice VOICE.SANS}{face_link 0}{face_emotion 9}ok, {sleep 20}ok.{sleep 20}&listen to me.{pause}{clear}{face_emotion 7}You, {sleep 20}uh, {sleep 20}really like&swinging that thing&around, {sleep 20}huh?{pause}{face_emotion 0}{end}";
+inst.template=0;

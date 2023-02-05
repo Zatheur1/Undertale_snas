@@ -1,0 +1,3 @@
+var inst=instance_create_depth(16,8,0,text_typer);
+inst.text="{instant true}{shadow false}{outline true}{scale 4}END OF PHASE 1 DEMO{outline false}&{scale 1}&{scale 2}Project Director: {color `yellow`}ESP{color `white`}&Programming: {color `yellow`}TML{color `white`}&Artwork: {color `yellow`}Pure Painter{color `white`} \\& {color `yellow`}Mario 84{color `white`}&Music: {color `yellow`}Isomeric_Monarch{color `white`} \\& {color `yellow`}Hitanne{color `white`}&Old Demo Creator: {color `yellow`}System{color `white`}&&&&&&Thanks for playing!&Phase 2 coming soon.";
+audio_play_sound(snd_impact,0,false);

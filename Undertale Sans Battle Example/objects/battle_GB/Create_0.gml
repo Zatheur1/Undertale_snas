@@ -1,0 +1,13 @@
+image_speed = 0
+audio_play_sound(snd_gb_charge, 0, false)
+xx = 0
+yy = 0
+pause = 0
+time = 0
+stay_time = 20
+move_time = 0
+idealrot = 0
+_destroy = 0
+blend = 0
+image_angle = 0
+angle = 0

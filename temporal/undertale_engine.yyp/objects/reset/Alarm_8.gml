@@ -1,0 +1,15 @@
+if(_draw_0){
+	_draw_0=false;
+	_draw_1=false;
+	_draw_2=false;
+	_draw_3=false;
+	Border_SetSprite(-1,false);
+	alarm[8]=20;
+}else{
+	_draw_0=true;
+	_draw_1=true;
+	_draw_2=true;
+	_draw_3=true;
+	Border_SetSprite(spr_default,false);
+	alarm[8]=60;
+}

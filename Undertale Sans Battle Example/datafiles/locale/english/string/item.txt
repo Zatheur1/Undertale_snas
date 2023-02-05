@@ -1,0 +1,33 @@
+"item.eat"								"* You ate the {insert ITEM}."
+"item.equip"							"* You equiped the {insert ITEM}."
+"item.heal.part"						"* You recovered {insert HP} HP!"
+"item.heal.all"							"* Your HP was maxed out."
+"item.drop.0"							"* The {insert ITEM} was&  thrown away."
+"item.drop.1"							"* You bid a quiet farewell&  to the {insert ITEM}."
+"item.drop.2"							"* You put the {insert ITEM}&  on the ground and gave it a&  little pat."
+"item.drop.3"							"* You threw the {insert ITEM}&  on the ground like the piece&  of trash it is."
+"item.drop.4"							"* You abandoned the &  {insert ITEM}."
+"item.stick.name"						"Stick"
+"item.stick.info"						"* Stick - Weapon AT 0&* Its bark is worse than&  its bite."
+"item.stick.use"						"* You threw the stick away.{sleep 20}&* Then picked it back up."
+
+
+"item.pie.name"					"Pie"
+"item.pie.info"					"* Pie - Heals 99 HP"
+"item.pie.use"					"* It Tastes Nice&  Toriel Maked it GOOD."
+
+"item.steak.name"					"Steak"
+"item.steak.info"					"* Steak - Heals 60 HP"
+"item.steak.use"					"* From an old friend&  hehehe."
+
+"item.snowman_piece.name"					"Snowman Piece"
+"item.snowman_piece.info"					"* Snowman Piece - Heals 45 HP"
+"item.snowman_piece.use"					"* From an old friend&  hehehe."
+
+"item.legandary_hero.name"					"Legandary Hero"
+"item.legandary_hero.info"					"* Legandary Hero - Heals 40 HP"
+"item.legandary_hero.use"					"* A hero? nah =)."
+
+"item.noodles.name"					"Instant Noodles"
+"item.noodles.info"					"* Instant Noodles - Heals 90 HP"
+"item.noodles.use"					"* They Better Dry."

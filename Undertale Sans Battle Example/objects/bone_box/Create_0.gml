@@ -1,0 +1,11 @@
+duration = 10
+mode = 0
+x1 = 0
+y1 = 0
+x2 = 0
+y2 = 0
+out = 0
+color = 255
+alarm[0] = 5
+depth = -500
+pause = 5

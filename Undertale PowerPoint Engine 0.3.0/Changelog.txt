@@ -1,0 +1,10 @@
+0.3.0 -
+made it a lot more accurate to undertale because i'm a perfectionist
+also added more fonts so that's cool
+
+0.2.0 -
+probably should've done this in the first place but soul modes are a thing now
+so that's cool I guess
+
+0.1.0 -
+Release of the engine.
