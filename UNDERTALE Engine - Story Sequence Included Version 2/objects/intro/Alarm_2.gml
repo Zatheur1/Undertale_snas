@@ -1,1 +1,0 @@
-if (number < 12) image_index++;

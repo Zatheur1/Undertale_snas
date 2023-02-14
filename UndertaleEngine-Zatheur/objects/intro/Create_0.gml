@@ -1,7 +1,7 @@
 image_speed = 0;
 image_index = 0;
 
-prefix = "{speed 4}{font 0}{voice 1}{space_x 2}{space_y 2}{skippable false}";
+prefix = "{speed 2}{font 0}{voice 1}{space_x 0}{space_y 0}{skippable false}";
 
 text[0] = "Long ago,{sleep 24} two races&ruled over Earth:{sleep 24}&HUMANS and MONSTERS.{sleep 120}{end}";
 text[1] = "One day,{sleep 24} a war broke&out between the two&races.{sleep 120}{end}";
@@ -19,11 +19,13 @@ text[12] = "";
 
 number = 0;
 txt_x = 60;
-txt_y = 160;
+txt_y = 30;
 
 inst = instance_create_depth(txt_x, txt_y, -399, text_typer);
 inst.text = prefix + text[number];
 
+/*
 BGM_Play(0, bgm_story, false);
 BGM_SetPitch(0, 0.91);
 BGM_SetVolume(0, 0.8);
+*/

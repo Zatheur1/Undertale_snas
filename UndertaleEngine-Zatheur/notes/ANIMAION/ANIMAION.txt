@@ -1,0 +1,7 @@
+toca el collider se "pausa" el juego
+camara se mueve a la derecha y se spawn sans con Suspense - Sound Effect (HD) segundo 2
+Dialogo
+camara se mueve izquierda, personaje gira izquierda con Suspense - Sound Effect (HD) primero 1
+y procede la animacion
+termina y dialogo
+pelea

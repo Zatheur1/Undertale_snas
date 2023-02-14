@@ -1,1 +1,0 @@
-_inst_list=ds_list_create();

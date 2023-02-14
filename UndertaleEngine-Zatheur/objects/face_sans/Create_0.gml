@@ -41,3 +41,10 @@ idle_speed[5]=0;
 talk_sprite[5]=spr_sans_face;
 talk_image[5]=5;
 talk_speed[5]=0;
+
+idle_sprite[6]=spr_sans_face;
+idle_image[6]=6;
+idle_speed[6]=0;
+talk_sprite[6]=spr_sans_face;
+talk_image[6]=6;
+talk_speed[6]=0;

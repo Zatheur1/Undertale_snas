@@ -20,10 +20,10 @@ else if (number > 11) {
 if (number == 11) {
 	inst2 = instance_create_depth(0, -210, 1, intro_last);
 }
-
+/*
 if (keyboard_check_pressed(ord("Z"))) or (keyboard_check_pressed(vk_enter)) {
 	Fader_Fade(-1, 1, 30);
 	if (alarm[0] < 0) {
 		alarm[0] = 30;
 	}
-}
+}*/

@@ -1,4 +1,4 @@
-event_inherited();
+	event_inherited();
 _phase_pause_state=0;
 
 _list_turn=ds_list_create();

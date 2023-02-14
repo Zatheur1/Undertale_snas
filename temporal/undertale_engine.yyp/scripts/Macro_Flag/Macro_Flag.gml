@@ -1,4 +1,4 @@
-function Macro_Flag() {
+                                                                                 function Macro_Flag() {
 	enum FLAG_TYPE{
 		STATIC,
 		DYNAMIC,

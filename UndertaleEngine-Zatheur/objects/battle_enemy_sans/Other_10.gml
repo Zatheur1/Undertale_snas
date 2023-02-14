@@ -1,6 +1,6 @@
 /// @description Init
 Battle_SetEnemyName(_enemy_slot,"* sans");
-BGM_Play(5,bgm_newfight,true)
+//BGM_Play(5,bgm_newfight,true)
 if _compliment = 1{
 alarm[0]=1;
 }

@@ -1,1 +1,0 @@
-SetSansAction(SANS_ACTION.IDLE);

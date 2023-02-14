@@ -22,6 +22,11 @@ if(!_triggered&&result){
 
 if(!instance_exists(ui_dialog)&&ready==true) { 
 	event_inherited()
-	Encounter_Start(1)
-	ready=false
+	Encounter_Start(1,1,false)
+	ready=false;
 	}
+	
+if(!instance_exists(ui_dialog) and ready2==true){
+	ready2=false;
+	alarm[2]=10;
+}

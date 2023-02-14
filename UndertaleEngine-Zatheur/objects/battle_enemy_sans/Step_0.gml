@@ -177,6 +177,14 @@ if(action==SANS_ACTION.STATIC){
 		}
 		_action_step+=0.2;
 	}
-}
-
-
+}else if(action==SANS_ACTION.NOPE){
+	if(_action_step!=1){
+		_body_sprite=spr_sans_body_nope;
+		_body_x=0;
+		_body_y=0;
+		_body_image=0;
+		_body_speed=0.065;
+		_body_loop=true;
+		_wiggle=true;
+		_action_step=1;
+	}}

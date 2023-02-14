@@ -1,1 +1,0 @@
-_list_bone=ds_list_create();

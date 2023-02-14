@@ -1,0 +1,7 @@
+				Hello player wait	1s
+				ah re yanqui xd		Clear
+				Esto es un fangame con sonidos graciosos	 clear
+										asi que sera mejor que te rias o si no {type 10} . . .  195.0.3.236 {clear}
+																													Sin nada mas que mencionar ya puedes jugar  Fader etc
+
+"Hello player{sleep 60} & ah re yanqui xd {pause}{clear}Esto es un fangame con sonidos{sleep 30} & GRACIOSOS {pause}{clear}Asi que sera mejor que te rias& o si no{sleep 30} {speed 20}...{sleep 60} {clear}{speed 3}195.0.3.236{clear}Sin nada mas que mencionar &ya puedes jugar";

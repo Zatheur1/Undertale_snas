@@ -20,7 +20,8 @@ enum SANS_ACTION{
 	LEFT,
 	RIGHT,
 	UP,
-	DOWN
+	DOWN,
+	NOPE
 };
 
 action=SANS_ACTION.IDLE;
@@ -35,6 +36,11 @@ _head_init_y=-29;
 _head_x=0;
 _head_y=0;
 _head_image=0;
+
+_bgm_x=-380;
+Anim_Create(id,"_bgm_x",ANIM_TWEEN.SINE,ANIM_EASE.OUT,_bgm_x,-_bgm_x,60);
+Anim_Create(id,"_bgm_x",ANIM_TWEEN.SINE,ANIM_EASE.IN,0,_bgm_x,999,9999);
+_bgm_x=0;
 
 var inst=instance_create_depth(0,0,0,face_sans_battle);
 inst.face_id=0;

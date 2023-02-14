@@ -5,5 +5,6 @@ _triggered=true;
 
 char_player.moveable=false;
 
-alarm[0]=60
+alarm[0]=120
 
+BGM_Stop(0)

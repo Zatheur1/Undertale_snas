@@ -14,6 +14,6 @@ switch(Battle_GetMenu()){
 		}
 		break;
 	case BATTLE_MENU.FIGHT_DAMAGE:
-		instance_create_depth(x,y-125,0,battle_damage);
+		instance_create_depth(x,y-150,0,battle_damage);
 		break;
 }
