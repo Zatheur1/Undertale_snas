@@ -4,14 +4,14 @@ instance_create_depth(0,0,0,battle_turn)
 
 }
 if _turn = 1{
-instance_create_depth(0,0,0,battle_turn_ter2)
+instance_create_depth(0,0,0,battle_turn_gravity_idk)
 	
 }
 if _turn = 2{
-instance_create_depth(0,0,0,battle_turn_ter1)
+instance_create_depth(0,0,0,battle_turn_bluebones)
 	
 }
 if _turn =3{
-instance_create_depth(0,0,0,battle_turn_ter1)
+instance_create_depth(0,0,0,battle_turn_ter2)
 _turn +=-3;
 }

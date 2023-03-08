@@ -1,11 +1,15 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-Anim_Create(battle_board, "left", ANIM_TWEEN.LINEAR, ANIM_EASE.IN_OUT, battle_board.left, -30, 30);
+Anim_Create(battle_board, "angle", ANIM_TWEEN.LINEAR, ANIM_EASE.IN, battle_board.angle, +90, 60);
+//Anim_Create(camera,"right",ANIM_TWEEN.LINEAR,ANIM_EASE.IN,camera,0,300,90)
 
-//Anim_Create(camera,"x",ANIM_TWEEN.SINE,ANIM_EASE.OUT,0,150,90)
+//ZOOM
+/*
+Anim_Create(camera,"scale_x",ANIM_TWEEN.LINEAR,ANIM_EASE.IN_OUT,camera.scale_x,0.05,60);
+Anim_Create(camera,"scale_y",ANIM_TWEEN.LINEAR,ANIM_EASE.IN_OUT,camera.scale_y,0.05,60);*/
  
 SetSansAction(SANS_ACTION.IDLE);
 
-
+alarm[0]=120
 

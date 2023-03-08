@@ -1,0 +1,5 @@
+//ZOOM
+Anim_Create(camera,"x",ANIM_TWEEN.LINEAR,ANIM_EASE.IN,camera.scale_x,-0.1,90)
+Anim_Create(camera,"x",ANIM_TWEEN.LINEAR,ANIM_EASE.IN,camera.scale_y,-0.1,90)
+
+clamp :v

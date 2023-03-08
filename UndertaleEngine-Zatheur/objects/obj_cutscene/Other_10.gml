@@ -7,4 +7,4 @@ char_player.moveable=false;
 
 alarm[0]=120
 
-BGM_Stop(0)
+BGM_Stop(1)

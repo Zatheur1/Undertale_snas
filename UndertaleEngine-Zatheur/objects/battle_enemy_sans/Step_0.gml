@@ -66,7 +66,7 @@ if(action==SANS_ACTION.STATIC){
 	if(_action_step<=4){
 		switch(_action_step){
 			case 0:
-				_body_sprite=spr_sans_body;
+				_body_sprite=spr_sans_body_left;
 				_body_x=0;
 				_body_y=0;
 				_body_image=0;
@@ -79,11 +79,14 @@ if(action==SANS_ACTION.STATIC){
 				break;
 			case 2:
 				_body_x=6;
+				_body_sprite=spr_sans_body_left;
+				_body_image=1;
 				break;
 			case 3:
 				_body_x=-1;
-				_body_sprite=spr_sans_body_left;
+				_body_sprite=spr_sans_body;
 				_body_speed=0.5;
+
 				break;
 			case 4:
 				_body_x=0;
@@ -96,7 +99,7 @@ if(action==SANS_ACTION.STATIC){
 	if(_action_step<=5){
 		switch(_action_step){
 			case 0:
-				_body_sprite=spr_sans_body_left;
+				_body_sprite=spr_sans_body;
 				_body_x=0;
 				_body_y=0;
 				_body_image=5;
@@ -114,8 +117,8 @@ if(action==SANS_ACTION.STATIC){
 				break;
 			case 3:
 				_body_x=3;
-				_body_sprite=spr_sans_body;
-				_body_image=0;
+				_body_sprite=spr_sans_body_right;
+				_body_image=1;
 				_body_speed=0;
 				break;
 			case 4:
@@ -123,6 +126,7 @@ if(action==SANS_ACTION.STATIC){
 				break;
 			case 5:
 				_body_x=0;
+				_body_sprite=spr_sans_body;
 				break;
 		}
 		_action_step+=0.25;
@@ -149,6 +153,9 @@ if(action==SANS_ACTION.STATIC){
 			case 3:
 				_body_y=2;
 				break;
+			case 4:
+				_body_y=0;
+				_body_sprite=spr_sans_body
 		}
 		_action_step+=0.2;
 	}
@@ -173,6 +180,7 @@ if(action==SANS_ACTION.STATIC){
 				break;
 			case 3:
 				_body_y=0;
+				_body_sprite=spr_sans_body
 				break;
 		}
 		_action_step+=0.2;

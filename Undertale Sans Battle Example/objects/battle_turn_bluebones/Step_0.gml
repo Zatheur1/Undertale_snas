@@ -166,7 +166,8 @@ inst.length=150;
 inst.dir=DIR.DOWN;
 inst.no_bottom=false;
 inst.hspeed=4.5;
-inst.type=1;		
+inst.type=1;
+
 }
 
 	if(time == 480){	

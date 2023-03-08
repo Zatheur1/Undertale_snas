@@ -4,7 +4,7 @@ _phase_pause_state=0;
 instance_create_depth(0,0,0,slam_manager)
 
 _list_turn=ds_list_create();
-ds_list_add(_list_turn,battle_turn_intro,battle_turn_bonegap,battle_turn_bluebones,battle_turn_randombones,battle_turn_platform_gb);
+ds_list_add(_list_turn,battle_turn_intro,battle_turn_1test,battle_turn_bonegap,battle_turn_bluebones,battle_turn_randombones,battle_turn_platform_gb);
 _turn=0;
 
 
